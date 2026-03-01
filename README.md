@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+# 📄 AI Resume Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Resume Builder web application that allows users to create, preview, and download professional resumes in PDF format.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+✨ Dynamic Resume Form
 
-### `npm start`
+👀 Live Resume Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📄 Download Resume as PDF
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 Clean & Responsive UI
 
-### `npm test`
+🔐 Backend API Integration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💾 MongoDB Database Support
 
-### `npm run build`
+⚡ Fast & Lightweight
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
+Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+HTML5
 
-### `npm run eject`
+CSS3
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JavaScript (ES6+)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Node.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Express.js
 
-## Learn More
+MongoDB
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mongoose
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tools
 
-### Code Splitting
+VS Code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Postman
 
-### Analyzing the Bundle Size
+Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm
 
-### Making a Progressive Web App
+## 📁 Project Structure
+project2/
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── node_modules/
+│
+└── README.md
+## ⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone <your-repo-link>
+cd project2
+2️⃣ Backend Setup
+cd backend
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start server:
 
-### Advanced Configuration
+node server.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If using nodemon:
 
-### Deployment
+nodemon server.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Backend runs on:
 
-### `npm run build` fails to minify
+http://localhost:5000
+3️⃣ Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open new terminal:
+
+cd frontend
+npm install
+npm start
+
+Frontend runs on:
+
+http://localhost:3000
+🗄️ Database Setup
+
+Make sure MongoDB is installed and running.
+
+Default connection:
+
+mongodb://127.0.0.1:27017/resumeBuilder
+## 📌 API Endpoints
+Method	Endpoint	Description
+POST	/api/resume	Save Resume
+GET	/api/resume	Get All Resumes
+GET	/api/resume/:id	Get Resume by ID
+📸 Screenshots
+
+(Add screenshots of your project here)
+
+## 🎯 Future Improvements
+
+User Authentication (Login/Register)
+
+Multiple Resume Templates
+
+Drag & Drop Section Editing
+
+Cloud Resume Storage
+
+Profile Picture Upload
+
+Dark Mode
+
+## 🧠 Learning Outcomes
+
+Full-stack development
+
+REST API creation
+
+MongoDB integration
+
+React state management
+
+PDF generation
+
+Debugging & deployment
